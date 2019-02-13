@@ -14,6 +14,7 @@ public void testDemo()
 {
 System.out.println("Hello Github");
  
+//using on the chrome browser
 File file = new File("./Drivers/chromedriver.exe");
 System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
 
